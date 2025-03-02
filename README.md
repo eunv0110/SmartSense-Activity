@@ -323,15 +323,15 @@
 
 <div style="display: flex; justify-content: space-around; margin-top: 20px;">
   <div style="width: 32%;">
-    <img src="https://github.com/username/har-project/raw/main/images/stage1_loss.png" width="100%" alt="1단계 모델 학습 곡선" />
+    <img width="534" alt="스크린샷 2025-03-02 오후 10 26 20" src="https://github.com/user-attachments/assets/1799f4a9-d560-480c-b5cd-fffe01236add" />
     <p align="center"><small><i>1단계 모델 학습 곡선</i></small></p>
   </div>
   <div style="width: 32%;">
-    <img src="https://github.com/username/har-project/raw/main/images/dynamic_loss.png" width="100%" alt="동적 행동 모델 학습 곡선" />
+    <img width="534" alt="스크린샷 2025-03-02 오후 10 26 41" src="https://github.com/user-attachments/assets/24884b11-8855-4877-96c3-da0a6afbdb6f" />
     <p align="center"><small><i>동적 행동 모델 학습 곡선</i></small></p>
   </div>
   <div style="width: 32%;">
-    <img src="https://github.com/username/har-project/raw/main/images/static_loss.png" width="100%" alt="정적 행동 모델 학습 곡선" />
+    <img width="534" alt="스크린샷 2025-03-02 오후 10 26 58" src="https://github.com/user-attachments/assets/dc36da2e-50e8-4ba4-8387-44e04e6240aa" />
     <p align="center"><small><i>정적 행동 모델 학습 곡선</i></small></p>
   </div>
 </div>
