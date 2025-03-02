@@ -190,11 +190,11 @@
   <h4>변수 중요도에 따른 KDE 분포 비교</h4>
   <div style="display: flex; justify-content: space-between; margin-top: 20px;">
     <div style="width: 48%;">
-      <img width="250" alt="스크린샷 2025-03-02 오후 10 04 15" src="https://github.com/user-attachments/assets/5874ea50-1136-499f-960d-fc64b69a430b" />
+      <img width="500" alt="스크린샷 2025-03-02 오후 10 04 15" src="https://github.com/user-attachments/assets/5874ea50-1136-499f-960d-fc64b69a430b" />
       <p align="center"><small><i>중요도 상위 변수(tGravityAcc-energy()-X)의 KDE 분포<br/>LAYING은 분리되지만 다른 행동들은 구분이 어려움</i></small></p>
     </div>
     <div style="width: 48%;">
-      <img width="250" alt="스크린샷 2025-03-02 오후 10 04 01" src="https://github.com/user-attachments/assets/2632d208-cf05-4dcd-902b-139378c4dcb6" />
+      <img width="500" alt="스크린샷 2025-03-02 오후 10 04 01" src="https://github.com/user-attachments/assets/2632d208-cf05-4dcd-902b-139378c4dcb6" />
       <p align="center"><small><i>중요도 하위 변수(fBodyBodyGyroJerkMag-iqr())의 KDE 분포<br/>정적 행동(STANDING, SITTING)과 동적 행동(WALKING 계열)이 뚜렷하게 구분됨</i></small></p>
     </div>
   </div>
