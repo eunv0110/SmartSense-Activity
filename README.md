@@ -392,7 +392,7 @@ print(accuracy_score(test['Activity'], test_result['Activity']))
 
 <br>
 
-  <p><b>📊 주요 관찰: 변수 중요도의 역설</b></p>
+### 📊 주요 관찰: 변수 중요도의 역설
   <div style="width: 80%; padding: 15px; border: 1px solid #ddd; border-radius: 8px; background-color: #f0f8ff; margin: 0 auto; text-align: left;">
     <p>흥미로운 관찰 결과 중 하나는 <b>변수 중요도와 분류 효과성 간의 역설적 관계</b>입니다. 전체 6개 행동 분류에서 중요도가 높게 나온 변수들은 정작 가장 기본적인 구분인 정적/동적 행동 분류에는 효과적이지 않았습니다. 반면, 중요도가 낮게 평가된 하위 변수들이 정적/동적 행동을 명확하게 구분하는 데 더 효과적이었습니다.</p>
     <p>이는 <b>문제의 계층적 특성을 이해하고 각 단계에 맞는 특성을 선별</b>하는 것의 중요성을 보여줍니다. 이러한 통찰이 계층적 모델링 접근법의 효과성을 뒷받침합니다.</p>
