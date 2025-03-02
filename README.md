@@ -1,7 +1,7 @@
 # 📱 스마트폰 센서 기반 행동 인식 프로젝트
 
 <div align="center">
-  ![close-up-friends-holding-smartphones_23-2149103059](https://github.com/user-attachments/assets/02dfd024-57fa-4370-8419-72c030896d95)
+  <img src="https://github.com/user-attachments/assets/02dfd024-57fa-4370-8419-72c030896d95" alt="close-up-friends-holding-smartphones">
 
   <br>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
