@@ -213,7 +213,7 @@
 </table>
 
 
-      <p align="center"><small><i>중요도 하위 변수(fBodyBodyGyroJerkMag-iqr())의 KDE 분포<br/>정적 행동(STANDING, SITTING)과 동적 행동(WALKING 계열)이 뚜렷하게 구분됨</i></small></p>
+*중요도 하위 변수(fBodyBodyGyroJerkMag-iqr())의 KDE 분포 - 정적 행동(STANDING, SITTING)과 동적 행동(WALKING 계열)이 뚜렷하게 구분됨*
     </div>
   </div>
 </div>
