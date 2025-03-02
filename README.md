@@ -363,7 +363,7 @@ print(accuracy_score(test['Activity'], test_result['Activity']))
 46/46 —————————————————— 0s 1ms/step
 27/27 —————————————————— 0s 2ms/step
 20/20 —————————————————— 0s 2ms/step
-0.9748470428280082
+0.9748470428280082```
 
 <br>
 
