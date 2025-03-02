@@ -1,7 +1,7 @@
 # 📱 스마트폰 센서 기반 행동 인식 프로젝트
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/b705f0d5-6f70-45cf-b196-10b22a414670" alt="close-up-friends-holding-smartphones_23-2149103059" width="250px" />
+<img src="https://github.com/user-attachments/assets/b705f0d5-6f70-45cf-b196-10b22a414670" alt="close-up-friends-holding-smartphones_23-2149103059" width="500px" />
   <br><br>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
