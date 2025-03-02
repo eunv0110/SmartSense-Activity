@@ -321,7 +321,7 @@
   </table>
 </div>
 
-<div style="display: flex; justify-content: space-around; margin-top: 20px;">
+<div align="center";style="display: flex; justify-content: space-around; margin-top: 20px;">
   <div style="width: 32%;">
     <img width="534" alt="스크린샷 2025-03-02 오후 10 26 20" src="https://github.com/user-attachments/assets/1799f4a9-d560-480c-b5cd-fffe01236add" />
     <p align="center"><small><i>1단계 모델 학습 곡선</i></small></p>
