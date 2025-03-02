@@ -1,15 +1,4 @@
-### 📊 이진 분류(정적/동적 행동) 특성 분석
-
-<div align="center">
-  <p><b>정적/동적 행동 구분을 위한 상위 특성의 분포 패턴</b></p>
-  <img src="https://github.com/username/har-project/raw/main/images/binary_features.png" width="700px" alt="이진 분류 주요 특성 분포" />
-  <br>
-  <small><i>정적 행동(0)과 동적 행동(1)의 명확한 분류가 가능한 상위 5개 특성의 KDE 분포</i></small>
-</div>
-
-<div style="padding: 15px; border: 1px solid #ddd; border-radius: 8px; background-color: #f0f8ff; margin: 20px 0;">
-  <p><b>🔍 주요 관찰:</b> 이진 분류(정적/동적 행동 구분)에 초점을 맞춘 특성 중요도 분석에서는 위 그래프와 같이 매우 명확한 패턴이 관찰됩니다. 특히 tBodyAccJerk-entropy()-X와 같은 특성에서는 정적 행동(파란색)과 동적 행동(주황색)이 완전히 분리된 분포를 보여, 이진 분류가 99.9%의 높은 정확도로 가능했던 이유를 설명합니다. 이는 문제를 계층적으로 접근할 때 각 단계에 맞는 특성 선택의 중요성을 보여줍니다.</p>
-</div># 📱 스마트폰 센서 기반 행동 인식 프로젝트
+# 📱 스마트폰 센서 기반 행동 인식 프로젝트
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/mdn/content/main/files/en-us/Web/API/Accelerometer/accelerometer.svg" width="400px" />
@@ -201,7 +190,7 @@
   <h4>변수 중요도에 따른 KDE 분포 비교</h4>
   <div style="display: flex; justify-content: space-between; margin-top: 20px;">
     <div style="width: 48%;">
-      <img width="500" alt="스크린샷 2025-03-02 오후 10 04 15" src="https://github.com/user-attachments/assets/bd4f49e2-33ed-4198-84e6-6af2fa0215e1" />
+      <img width="500" alt="스크린샷 2025-03-02 오후 10 04 15" src="https://github.com/user-attachments/assets/bd4f49e2-33ed-4198-84e6-6af2fa0215e1" />
       <p align="center"><small><i>중요도 상위 변수(tGravityAcc-energy()-X)의 KDE 분포<br/>LAYING은 분리되지만 다른 행동들은 구분이 어려움</i></small></p>
     </div>
     <div style="width: 48%;">
@@ -212,7 +201,6 @@
   </tr>
 </table>
 
-
 *중요도 하위 변수(fBodyBodyGyroJerkMag-iqr())의 KDE 분포 - 정적 행동(STANDING, SITTING)과 동적 행동(WALKING 계열)이 뚜렷하게 구분됨*
     </div>
   </div>
@@ -220,6 +208,19 @@
 
 <div style="padding: 15px; border: 1px solid #ddd; border-radius: 8px; background-color: #f0f8ff; margin: 20px 0;">
   <p><b>🔍 주목할 점:</b> 위 KDE 플롯 시각화에서 볼 수 있듯이, 중요도가 높은 변수(좌측)는 LAYING 행동만 분리하고 나머지 행동들의 분포가 상당 부분 겹치는 반면, 중요도가 낮은 변수(우측)는 오히려 정적 행동과 동적 행동을 명확하게 구분합니다. 이는 모델 구축 시 단순히 전체 중요도가 높은 변수만 고려하는 것이 아니라, 문제의 계층적 특성에 맞는 변수 선택이 중요함을 보여줍니다.</p>
+</div>
+
+### 📊 이진 분류(정적/동적 행동) 특성 분석
+
+<div align="center">
+  <p><b>정적/동적 행동 구분을 위한 상위 특성의 분포 패턴</b></p>
+  <img src="https://github.com/username/har-project/raw/main/images/binary_features.png" width="700px" alt="이진 분류 주요 특성 분포" />
+  <br>
+  <small><i>정적 행동(0)과 동적 행동(1)의 명확한 분류가 가능한 상위 5개 특성의 KDE 분포</i></small>
+</div>
+
+<div style="padding: 15px; border: 1px solid #ddd; border-radius: 8px; background-color: #f0f8ff; margin: 20px 0;">
+  <p><b>🔍 주요 관찰:</b> 이진 분류(정적/동적 행동 구분)에 초점을 맞춘 특성 중요도 분석에서는 위 그래프와 같이 매우 명확한 패턴이 관찰됩니다. 특히 tBodyAccJerk-entropy()-X와 같은 특성에서는 정적 행동(파란색)과 동적 행동(주황색)이 완전히 분리된 분포를 보여, 이진 분류가 99.9%의 높은 정확도로 가능했던 이유를 설명합니다. 이는 문제를 계층적으로 접근할 때 각 단계에 맞는 특성 선택의 중요성을 보여줍니다.</p>
 </div>
 
 ### 📈 기본 모델 성능 비교
