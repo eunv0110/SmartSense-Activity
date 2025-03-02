@@ -1,8 +1,8 @@
 # 📱 스마트폰 센서 기반 행동 인식 프로젝트
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/02dfd024-57fa-4370-8419-72c030896d95" alt="close-up-friends-holding-smartphones" width="400">
-  <br>
+  <img src="https://raw.githubusercontent.com/mdn/content/main/files/en-us/Web/API/Accelerometer/accelerometer.svg" width="400px" />
+  <br><br>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
@@ -18,6 +18,8 @@
 
 <div align="center">
   <h3><i>"스마트폰 센서 데이터를 활용한 인간 행동 인식(HAR) 모델 개발"</i></h3>
+  <p><img src="https://github.com/username/har-project/raw/main/images/multiclass_kde.png" width="600px" alt="특징 분포 시각화" /></p>
+  <small><i>센서 데이터 특성값의 행동별 분포</i></small>
 </div>
 
 <br>
@@ -80,6 +82,13 @@
     </td>
   </tr>
 </table>
+
+<div align="center">
+  <img src="https://github.com/username/har-project/raw/main/images/feature_importance.png" width="700px" alt="변수 중요도 분석" />
+  <br>
+  <small><i>변수 중요도 분석 결과 - 상위 핵심 변수들</i></small>
+</div>
+
 <br>
 
 ## 🛠️ 프로젝트 수행 단계
@@ -152,6 +161,7 @@
           <li>LAYING은 비교적 분류가 잘 됨</li>
           <li>다른 행동 간에는 구분이 상대적으로 어려움</li>
           <li>주파수 영역의 에너지 밴드 관련 특성이 중요함</li>
+          <li><b>중요도 상위 변수들은 6개 행동을 세부적으로 구분하는데 효과적이지만, 정작 정적/동적 행동의 구분에는 덜 효과적</b></li>
         </ul>
       </td>
     </tr>
@@ -169,21 +179,29 @@
           <li>소수의 특성만으로도 높은 정확도로 구분 가능</li>
           <li>중력 가속도와 자이로스코프 센서 데이터가 핵심적</li>
           <li>특성 상위/하위 분석에서 뚜렷한 그룹 구분 확인됨</li>
+          <li><b>흥미롭게도, 전체 모델에서 중요도가 낮은 하위 변수들이 정적/동적 행동 구분에는 더 효과적으로 작용</b></li>
         </ul>
       </td>
     </tr>
   </table>
 </div>
 
-<div style="display: flex; justify-content: space-between; margin-top: 20px;">
-  <div style="width: 48%;">
-    <img src="https://github.com/username/har-project/raw/main/images/binary_kde.png" width="100%" alt="정적/동적 행동 특성 분포" />
-    <p align="center"><small><i>정적/동적 행동 구분에 중요한 특성의 분포</i></small></p>
+<div align="center">
+  <h4>변수 중요도에 따른 KDE 분포 비교</h4>
+  <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+    <div style="width: 48%;">
+      <img src="https://github.com/username/har-project/raw/main/images/top_feature_kde.png" width="100%" alt="중요도 상위 변수 KDE 플롯" />
+      <p align="center"><small><i>중요도 상위 변수(tGravityAcc-energy()-X)의 KDE 분포<br/>LAYING은 분리되지만 다른 행동들은 구분이 어려움</i></small></p>
+    </div>
+    <div style="width: 48%;">
+      <img src="https://github.com/username/har-project/raw/main/images/bottom_feature_kde.png" width="100%" alt="중요도 하위 변수 KDE 플롯" />
+      <p align="center"><small><i>중요도 하위 변수(fBodyBodyGyroJerkMag-iqr())의 KDE 분포<br/>정적 행동(STANDING, SITTING)과 동적 행동(WALKING 계열)이 뚜렷하게 구분됨</i></small></p>
+    </div>
   </div>
-  <div style="width: 48%;">
-    <img src="https://github.com/username/har-project/raw/main/images/multiclass_features.png" width="100%" alt="6개 행동 특성 분석" />
-    <p align="center"><small><i>6개 행동 분류에 중요한 특성의 분포</i></small></p>
-  </div>
+</div>
+
+<div style="padding: 15px; border: 1px solid #ddd; border-radius: 8px; background-color: #f0f8ff; margin: 20px 0;">
+  <p><b>🔍 주목할 점:</b> 위 KDE 플롯 시각화에서 볼 수 있듯이, 중요도가 높은 변수(좌측)는 LAYING 행동만 분리하고 나머지 행동들의 분포가 상당 부분 겹치는 반면, 중요도가 낮은 변수(우측)는 오히려 정적 행동과 동적 행동을 명확하게 구분합니다. 이는 모델 구축 시 단순히 전체 중요도가 높은 변수만 고려하는 것이 아니라, 문제의 계층적 특성에 맞는 변수 선택이 중요함을 보여줍니다.</p>
 </div>
 
 ### 📈 기본 모델 성능 비교
@@ -358,6 +376,14 @@
 </div>
 
 <br>
+
+<div align="center">
+  <p><b>📊 주요 관찰: 변수 중요도의 역설</b></p>
+  <div style="width: 80%; padding: 15px; border: 1px solid #ddd; border-radius: 8px; background-color: #f0f8ff; margin: 0 auto; text-align: left;">
+    <p>흥미로운 관찰 결과 중 하나는 <b>변수 중요도와 분류 효과성 간의 역설적 관계</b>입니다. 전체 6개 행동 분류에서 중요도가 높게 나온 변수들은 정작 가장 기본적인 구분인 정적/동적 행동 분류에는 효과적이지 않았습니다. 반면, 중요도가 낮게 평가된 하위 변수들이 정적/동적 행동을 명확하게 구분하는 데 더 효과적이었습니다.</p>
+    <p>이는 <b>문제의 계층적 특성을 이해하고 각 단계에 맞는 특성을 선별</b>하는 것의 중요성을 보여줍니다. 이러한 통찰이 계층적 모델링 접근법의 효과성을 뒷받침합니다.</p>
+  </div>
+</div>
 
 ## 💡 결론 및 시사점
 
