@@ -321,20 +321,29 @@
   </table>
 </div>
 
-<div align="center";style="display: flex; justify-content: space-around; margin-top: 20px;">
-  <div style="width: 32%;">
-    <img width="534" alt="스크린샷 2025-03-02 오후 10 26 20" src="https://github.com/user-attachments/assets/1799f4a9-d560-480c-b5cd-fffe01236add" />
-    <p align="center"><small><i>1단계 모델 학습 곡선</i></small></p>
-  </div>
-  <div style="width: 32%;">
-    <img width="534" alt="스크린샷 2025-03-02 오후 10 26 41" src="https://github.com/user-attachments/assets/24884b11-8855-4877-96c3-da0a6afbdb6f" />
-    <p align="center"><small><i>동적 행동 모델 학습 곡선</i></small></p>
-  </div>
-  <div style="width: 32%;">
-    <img width="534" alt="스크린샷 2025-03-02 오후 10 26 58" src="https://github.com/user-attachments/assets/dc36da2e-50e8-4ba4-8387-44e04e6240aa" />
-    <p align="center"><small><i>정적 행동 모델 학습 곡선</i></small></p>
-  </div>
-</div>
+<table>
+  <tr>
+    <th>1단계: 정적/동적 행동 분류</th>
+    <th colspan="2">2단계: 세부 행동 분류</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/1799f4a9-d560-480c-b5cd-fffe01236add" alt="1단계 모델 학습 곡선" /></td>
+    <td><img src="https://github.com/user-attachments/assets/24884b11-8855-4877-96c3-da0a6afbdb6f" alt="동적 행동 모델 학습 곡선" /></td>
+    <td><img src="https://github.com/user-attachments/assets/dc36da2e-50e8-4ba4-8387-44e04e6240aa" alt="정적 행동 모델 학습 곡선" /></td>
+  </tr>
+  <tr>
+    <td align="center"><small><i>1단계 모델 학습 곡선</i></small></td>
+    <td align="center"><small><i>동적 행동 모델 학습 곡선</i></small></td>
+    <td align="center"><small><i>정적 행동 모델 학습 곡선</i></small></td>
+  </tr>
+</table>
+
+**학습 곡선 분석:**
+- **1단계 모델**(정확도: 0.999): 빠르게 수렴하며 안정적인 학습 곡선을 보임
+- **동적 행동 모델**(정확도: 0.99): 약간의 변동이 있지만 비교적 안정적으로 수렴
+- **정적 행동 모델**(정확도: 0.96): 가장 변동성이 크고 학습에 더 많은 시간이 소요됨
+
+> **핵심 관찰:** 정적 행동(STANDING, SITTING, LAYING) 간의 센서 데이터 패턴이 서로 유사하여 세부 분류가 더 어려운 반면, 동적 행동(WALKING 계열)은 상대적으로 특징이 뚜렷하여 분류가 용이함을 확인할 수 있습니다.
 
 <br>
 
