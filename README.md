@@ -205,8 +205,13 @@
       <p align="center"><small><i>중요도 상위 변수(tGravityAcc-energy()-X)의 KDE 분포<br/>LAYING은 분리되지만 다른 행동들은 구분이 어려움</i></small></p>
     </div>
     <div style="width: 48%;">
-      <img width="668" alt="스크린샷 2025-03-02 오후 10 04 01" src="https://github.com/user-attachments/assets/d35a6e12-29a0-4955-967c-339ce9fb976b" />
-      <img width="311" alt="스크린샷 2025-03-02 오후 10 10 03" src="https://github.com/user-attachments/assets/8be7bd05-027d-43e9-9b98-6f783c104eee" />
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/d35a6e12-29a0-4955-967c-339ce9fb976b" width="450"></td>
+    <td><img src="https://github.com/user-attachments/assets/8be7bd05-027d-43e9-9b98-6f783c104eee" width="250"></td>
+  </tr>
+</table>
+
 
       <p align="center"><small><i>중요도 하위 변수(fBodyBodyGyroJerkMag-iqr())의 KDE 분포<br/>정적 행동(STANDING, SITTING)과 동적 행동(WALKING 계열)이 뚜렷하게 구분됨</i></small></p>
     </div>
