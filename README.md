@@ -352,13 +352,18 @@
 3. **2-2단계 모델**: 동적 행동 내 세부 분류 (정확도: 99%)
    - WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS 구분
 
-4. **통합 파이프라인**: 두 단계 모델을 결합하여 최종 예측 수행 (정확도: 97%)
+4. **통합 파이프라인**: 두 단계 모델을 결합하여 최종 예측 수행 (정확도: 97.5%)
 
-<div align="center">
-  <img src="https://github.com/username/har-project/raw/main/images/pipeline_results.png" alt="파이프라인 예측 결과" width="700px">
-  <br>
-  <small><i>파이프라인 모델의 테스트 데이터 예측 결과 - 0.97의 정확도 달성</i></small>
-</div>
+계층적 모델링 접근법을 통해 최종 통합 파이프라인은 테스트 데이터에서 97.5%의 정확도를 달성했습니다.
+
+```python
+test_result = data_pipeline(test)
+print(accuracy_score(test['Activity'], test_result['Activity']))
+
+46/46 —————————————————— 0s 1ms/step
+27/27 —————————————————— 0s 2ms/step
+20/20 —————————————————— 0s 2ms/step
+0.9748470428280082
 
 <br>
 
@@ -508,7 +513,22 @@
 </div>
 
 <br>
+## 👨‍💻 참여자 
 
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="16.6%"><b>김예은</b></td>
+      <td align="center" width="16.6%"><b>김지수</b></td>
+      <td align="center" width="16.6%"><b>윤종진</b></td>
+      <td align="center" width="16.6%"><b>이대희</b></td>
+      <td align="center" width="16.6%"><b>정재원</b></td>
+      <td align="center" width="16.6%"><b>황은비</b></td>
+    </tr>
+  </table>
+</div>
+
+<br>
 ---
 
 <div align="center">
