@@ -1,8 +1,7 @@
 # 📱 스마트폰 센서 기반 행동 인식 프로젝트
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mdn/content/main/files/en-us/Web/API/Accelerometer/accelerometer.svg" width="400px" />
-  <br><br>
+![hand-with-smart-watch](https://github.com/user-attachments/assets/503d0946-c631-4d41-bc3d-7bc2631843c2)
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
@@ -18,7 +17,6 @@
 
 <div align="center">
   <h3><i>"스마트폰 센서 데이터를 활용한 인간 행동 인식(HAR) 모델 개발"</i></h3>
-![smartwatch-screen_53876-89049](https://github.com/user-attachments/assets/f9c29a01-e6f3-4fad-9bab-388b86a28496)
 </div>
 
 <br>
