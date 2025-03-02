@@ -18,9 +18,7 @@
 
 <div align="center">
   <h3><i>"스마트폰 센서 데이터를 활용한 인간 행동 인식(HAR) 모델 개발"</i></h3>
-<img src="https://github.com/user-attachments/assets/c1965796-c455-42a3-a879-cd59c9b60982" width="500px" />
-
-  <small><i>센서 데이터 특성값의 행동별 분포</i></small>
+<img src="https://github.com/user-attachments/assets/c1965796-c455-42a3-a879-cd59c9b60982" width="300px" />
 </div>
 
 <br>
@@ -83,12 +81,6 @@
     </td>
   </tr>
 </table>
-
-<div align="center">
-  <img src="https://github.com/username/har-project/raw/main/images/feature_importance.png" width="700px" alt="변수 중요도 분석" />
-  <br>
-  <small><i>변수 중요도 분석 결과 - 상위 핵심 변수들</i></small>
-</div>
 
 <br>
 
@@ -215,7 +207,7 @@
 
 <div align="center">
   <p><b>정적/동적 행동 구분을 위한 상위 특성의 분포 패턴</b></p>
-  <img src="https://github.com/username/har-project/raw/main/images/binary_features.png" width="700px" alt="이진 분류 주요 특성 분포" />
+  <img width="311" alt="스크린샷 2025-03-02 오후 10 10 03" src="https://github.com/user-attachments/assets/ba80ec0b-6896-41a6-b717-bdfd5b6f78cf" />
   <br>
   <small><i>정적 행동(0)과 동적 행동(1)의 명확한 분류가 가능한 상위 5개 특성의 KDE 분포</i></small>
 </div>
