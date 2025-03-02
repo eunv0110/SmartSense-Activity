@@ -2,6 +2,7 @@
 
 <div align="center">
 ![hand-with-smart-watch](https://github.com/user-attachments/assets/503d0946-c631-4d41-bc3d-7bc2631843c2)
+  <br>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
