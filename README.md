@@ -1,4 +1,4 @@
-![smartwatch-screen_53876-89049](https://github.com/user-attachments/assets/5cc3c462-5197-4b0a-8a98-af0059d7ef97)# 📱 스마트폰 센서 기반 행동 인식 프로젝트
+# 📱 스마트폰 센서 기반 행동 인식 프로젝트
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/mdn/content/main/files/en-us/Web/API/Accelerometer/accelerometer.svg" width="400px" />
@@ -18,8 +18,7 @@
 
 <div align="center">
   <h3><i>"스마트폰 센서 데이터를 활용한 인간 행동 인식(HAR) 모델 개발"</i></h3>
-  <p>![smartwatch-screen_53876-89049](https://github.com/user-attachments/assets/1e84fbab-f312-4b68-8ad7-d301f4e30bde)
-</p>
+![smartwatch-screen_53876-89049](https://github.com/user-attachments/assets/f9c29a01-e6f3-4fad-9bab-388b86a28496)
 </div>
 
 <br>
