@@ -530,6 +530,7 @@ print(accuracy_score(test['Activity'], test_result['Activity']))
 </div>
 
 <br>
+
 ---
 
 <div align="center">
