@@ -513,6 +513,7 @@ print(accuracy_score(test['Activity'], test_result['Activity']))
 </div>
 
 <br>
+
 ## 👨‍💻 참여자 
 
 <div align="center">
