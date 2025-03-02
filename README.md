@@ -18,6 +18,8 @@
 
 <div align="center">
   <h3><i>"스마트폰 센서 데이터를 활용한 인간 행동 인식(HAR) 모델 개발"</i></h3>
+  <p><img src="https://github.com/username/har-project/raw/main/images/multiclass_kde.png" width="600px" alt="특징 분포 시각화" /></p>
+  <small><i>센서 데이터 특성값의 행동별 분포</i></small>
 </div>
 
 <br>
@@ -80,6 +82,12 @@
     </td>
   </tr>
 </table>
+
+<div align="center">
+  <img src="https://github.com/username/har-project/raw/main/images/feature_importance.png" width="700px" alt="변수 중요도 분석" />
+  <br>
+  <small><i>변수 중요도 분석 결과 - 상위 핵심 변수들</i></small>
+</div>
 
 <br>
 
@@ -176,6 +184,17 @@
   </table>
 </div>
 
+<div style="display: flex; justify-content: space-between; margin-top: 20px;">
+  <div style="width: 48%;">
+    <img src="https://github.com/username/har-project/raw/main/images/binary_kde.png" width="100%" alt="정적/동적 행동 특성 분포" />
+    <p align="center"><small><i>정적/동적 행동 구분에 중요한 특성의 분포</i></small></p>
+  </div>
+  <div style="width: 48%;">
+    <img src="https://github.com/username/har-project/raw/main/images/multiclass_features.png" width="100%" alt="6개 행동 특성 분석" />
+    <p align="center"><small><i>6개 행동 분류에 중요한 특성의 분포</i></small></p>
+  </div>
+</div>
+
 ### 📈 기본 모델 성능 비교
 
 <div align="center">
@@ -231,6 +250,12 @@
   </table>
 </div>
 
+<div align="center">
+  <img src="https://github.com/username/har-project/raw/main/images/models_comparison.png" width="700px" alt="모델 성능 비교 차트" />
+  <br>
+  <small><i>모델 구조별 정확도 비교 - 단순한 구조의 model7이 가장 높은 성능</i></small>
+</div>
+
 <br>
 
 ### 📈 계층적 모델 성능
@@ -269,6 +294,21 @@
   </table>
 </div>
 
+<div style="display: flex; justify-content: space-around; margin-top: 20px;">
+  <div style="width: 32%;">
+    <img src="https://github.com/username/har-project/raw/main/images/stage1_loss.png" width="100%" alt="1단계 모델 학습 곡선" />
+    <p align="center"><small><i>1단계 모델 학습 곡선</i></small></p>
+  </div>
+  <div style="width: 32%;">
+    <img src="https://github.com/username/har-project/raw/main/images/dynamic_loss.png" width="100%" alt="동적 행동 모델 학습 곡선" />
+    <p align="center"><small><i>동적 행동 모델 학습 곡선</i></small></p>
+  </div>
+  <div style="width: 32%;">
+    <img src="https://github.com/username/har-project/raw/main/images/static_loss.png" width="100%" alt="정적 행동 모델 학습 곡선" />
+    <p align="center"><small><i>정적 행동 모델 학습 곡선</i></small></p>
+  </div>
+</div>
+
 <br>
 
 ## 🌟 계층적 모델링 접근법
@@ -276,7 +316,9 @@
 우리 프로젝트의 핵심은 복잡한 다중 분류 문제를 더 단순한 하위 문제로 분해하는 계층적 접근법입니다:
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/cccdf105-3884-4f42-85c9-4ab954777713" alt="계층적 모델링 접근법" width="600px">
+  <img src="https://github.com/username/har-project/raw/main/images/hierarchical_approach.png" alt="계층적 모델링 접근법" width="700px">
+  <br>
+  <small><i>두 단계로 나누어 분류하는 계층적 모델 접근법</i></small>
 </div>
 
 <br>
@@ -292,6 +334,12 @@
    - WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS 구분
 
 4. **통합 파이프라인**: 두 단계 모델을 결합하여 최종 예측 수행 (정확도: 97%)
+
+<div align="center">
+  <img src="https://github.com/username/har-project/raw/main/images/pipeline_results.png" alt="파이프라인 예측 결과" width="700px">
+  <br>
+  <small><i>파이프라인 모델의 테스트 데이터 예측 결과 - 0.97의 정확도 달성</i></small>
+</div>
 
 <br>
 
@@ -320,7 +368,8 @@
 
 <br>
 
-💡 결론 및 시사점
+## 💡 결론 및 시사점
+
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 48%; padding: 15px; border: 1px solid #ddd; border-radius: 8px; background-color: #f9f9f9;">
     <h3>📝 연구 결론</h3>
@@ -344,9 +393,10 @@
     </ul>
   </div>
 </div>
+
 <br>
 
-## 👀 프로젝트 배운 점
+## 🧠 프로젝트 배운 점
 
 <div align="center">
   <table>
@@ -380,6 +430,7 @@
     </tr>
   </table>
 </div>
+
 <br>
 
 ## 🛠️ 기술 스택
@@ -428,6 +479,16 @@
     </tr>
   </table>
 </div>
+
+<br>
+
+## 🔜 향후 계획
+
+- 추가 센서 데이터(자기장계, 기압계 등) 활용 모델 확장
+- 실시간 행동 인식을 위한 경량화 모델 개발
+- 사용자 개인화를 위한 온라인 학습 기능 구현
+- 더 세분화된 행동 분류(달리기, 자전거 타기 등) 확장
+- 실제 모바일 앱에 통합하여 서비스 구현
 
 <br>
 
