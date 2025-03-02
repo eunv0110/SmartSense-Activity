@@ -80,13 +80,6 @@
     </td>
   </tr>
 </table>
-
-<div align="center">
-  <img src="https://github.com/username/har-project/raw/main/images/feature_importance.png" width="700px" alt="변수 중요도 분석" />
-  <br>
-  <small><i>변수 중요도 분석 결과 - 상위 핵심 변수들</i></small>
-</div>
-
 <br>
 
 ## 🛠️ 프로젝트 수행 단계
