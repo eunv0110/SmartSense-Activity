@@ -201,11 +201,13 @@
   <h4>변수 중요도에 따른 KDE 분포 비교</h4>
   <div style="display: flex; justify-content: space-between; margin-top: 20px;">
     <div style="width: 48%;">
-      <img src="https://github.com/username/har-project/raw/main/images/top_feature_kde.png" width="100%" alt="중요도 상위 변수 KDE 플롯" />
+      <img width="500" alt="스크린샷 2025-03-02 오후 10 04 15" src="https://github.com/user-attachments/assets/bd4f49e2-33ed-4198-84e6-6af2fa0215e1" />
       <p align="center"><small><i>중요도 상위 변수(tGravityAcc-energy()-X)의 KDE 분포<br/>LAYING은 분리되지만 다른 행동들은 구분이 어려움</i></small></p>
     </div>
     <div style="width: 48%;">
-      <img src="https://github.com/username/har-project/raw/main/images/bottom_feature_kde.png" width="100%" alt="중요도 하위 변수 KDE 플롯" />
+      <img width="668" alt="스크린샷 2025-03-02 오후 10 04 01" src="https://github.com/user-attachments/assets/d35a6e12-29a0-4955-967c-339ce9fb976b" />
+      <img width="311" alt="스크린샷 2025-03-02 오후 10 10 03" src="https://github.com/user-attachments/assets/8be7bd05-027d-43e9-9b98-6f783c104eee" />
+
       <p align="center"><small><i>중요도 하위 변수(fBodyBodyGyroJerkMag-iqr())의 KDE 분포<br/>정적 행동(STANDING, SITTING)과 동적 행동(WALKING 계열)이 뚜렷하게 구분됨</i></small></p>
     </div>
   </div>
@@ -507,16 +509,6 @@
     </tr>
   </table>
 </div>
-
-<br>
-
-## 🔜 향후 계획
-
-- 추가 센서 데이터(자기장계, 기압계 등) 활용 모델 확장
-- 실시간 행동 인식을 위한 경량화 모델 개발
-- 사용자 개인화를 위한 온라인 학습 기능 구현
-- 더 세분화된 행동 분류(달리기, 자전거 타기 등) 확장
-- 실제 모바일 앱에 통합하여 서비스 구현
 
 <br>
 
