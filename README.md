@@ -271,11 +271,7 @@
   </table>
 </div>
 
-<div align="center">
-  <img src="https://github.com/username/har-project/raw/main/images/models_comparison.png" width="700px" alt="모델 성능 비교 차트" />
-  <br>
-  <small><i>모델 구조별 정확도 비교 - 단순한 구조의 model7이 가장 높은 성능</i></small>
-</div>
+
 
 <br>
 
@@ -343,14 +339,7 @@
 
 ## 🌟 계층적 모델링 접근법
 
-우리 프로젝트의 핵심은 복잡한 다중 분류 문제를 더 단순한 하위 문제로 분해하는 계층적 접근법입니다:
-
-<div align="center">
-  <img src="https://github.com/username/har-project/raw/main/images/hierarchical_approach.png" alt="계층적 모델링 접근법" width="700px">
-  <br>
-  <small><i>두 단계로 나누어 분류하는 계층적 모델 접근법</i></small>
-</div>
-
+프로젝트의 핵심은 복잡한 다중 분류 문제를 더 단순한 하위 문제로 분해하는 계층적 접근법입니다.
 <br>
 
 1. **1단계 모델**: 정적 행동(0)과 동적 행동(1)을 구분 (정확도: 99.9%)
