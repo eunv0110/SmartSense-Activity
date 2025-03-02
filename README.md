@@ -18,7 +18,8 @@
 
 <div align="center">
   <h3><i>"스마트폰 센서 데이터를 활용한 인간 행동 인식(HAR) 모델 개발"</i></h3>
-  <p><img src="https://github.com/username/har-project/raw/main/images/multiclass_kde.png" width="600px" alt="특징 분포 시각화" /></p>
+<img src="https://github.com/user-attachments/assets/c1965796-c455-42a3-a879-cd59c9b60982" width="500px" />
+
   <small><i>센서 데이터 특성값의 행동별 분포</i></small>
 </div>
 
