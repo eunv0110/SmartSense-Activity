@@ -9,7 +9,6 @@
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
   <br><br>
-  <p><i>KT AIVLE School AI 트랙 미니프로젝트 3차</i></p>
 </div>
 
 <br>
@@ -528,10 +527,3 @@ print(accuracy_score(test['Activity'], test_result['Activity']))
 </div>
 
 <br>
-
----
-
-<div align="center">
-  <p>본 프로젝트는 KT AIVLE School AI 트랙 미니프로젝트 3차로 진행되었습니다.</p>
-  <p>© 2025 KT AIVLE School 6기 AI 트랙 미니프로젝트</p>
-</div>
