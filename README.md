@@ -47,6 +47,54 @@
 - 🔹 낙상 감지 등 안전 관련 응용 프로그램 개발 가능
 
 <br>
+## 🛠️ 기술 스택
+
+<div align="center">
+  <table>
+    <tr>
+      <th colspan="2" align="center">분류</th>
+      <th align="center">기술</th>
+      <th align="center">용도</th>
+    </tr>
+    <tr>
+      <td rowspan="4" width="10%">💻</td>
+      <td width="20%"><b>언어</b></td>
+      <td width="25%">Python</td>
+      <td width="45%">전체 프로젝트 개발</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><b>데이터 처리</b></td>
+      <td>Pandas</td>
+      <td>데이터프레임 조작 및 전처리</td>
+    </tr>
+    <tr>
+      <td>NumPy</td>
+      <td>수치 연산 및 배열 처리</td>
+    </tr>
+    <tr>
+      <td><b>시각화</b></td>
+      <td>Matplotlib, Seaborn</td>
+      <td>데이터 시각화 및 결과 표현</td>
+    </tr>
+    <tr>
+      <td rowspan="3">🤖</td>
+      <td rowspan="2"><b>머신러닝</b></td>
+      <td>Scikit-learn</td>
+      <td>데이터 전처리, 모델 평가</td>
+    </tr>
+    <tr>
+      <td>TensorFlow, Keras</td>
+      <td>신경망 모델 구현 및 학습</td>
+    </tr>
+    <tr>
+      <td><b>개발 환경</b></td>
+      <td>Google Colab</td>
+      <td>코드 개발 및 학습 환경</td>
+    </tr>
+  </table>
+</div>
+
+<br>
 
 ## 📊 데이터 소개
 
@@ -425,7 +473,7 @@ print(accuracy_score(test['Activity'], test_result['Activity']))
 
 <br>
 
-## 🧠 프로젝트 배운 점
+## 🌟 프로젝트 배운 점
 
 <div align="center">
   <table>
@@ -456,55 +504,6 @@ print(accuracy_score(test['Activity'], test_result['Activity']))
     <tr>
       <td align="center">💼<br><b>센서 데이터 이해</b></td>
       <td>가속도계, 자이로스코프 센서 데이터의 특성과 의미에 대한 이해 심화</td>
-    </tr>
-  </table>
-</div>
-
-<br>
-
-## 🛠️ 기술 스택
-
-<div align="center">
-  <table>
-    <tr>
-      <th colspan="2" align="center">분류</th>
-      <th align="center">기술</th>
-      <th align="center">용도</th>
-    </tr>
-    <tr>
-      <td rowspan="4" width="10%">💻</td>
-      <td width="20%"><b>언어</b></td>
-      <td width="25%">Python</td>
-      <td width="45%">전체 프로젝트 개발</td>
-    </tr>
-    <tr>
-      <td rowspan="2"><b>데이터 처리</b></td>
-      <td>Pandas</td>
-      <td>데이터프레임 조작 및 전처리</td>
-    </tr>
-    <tr>
-      <td>NumPy</td>
-      <td>수치 연산 및 배열 처리</td>
-    </tr>
-    <tr>
-      <td><b>시각화</b></td>
-      <td>Matplotlib, Seaborn</td>
-      <td>데이터 시각화 및 결과 표현</td>
-    </tr>
-    <tr>
-      <td rowspan="3">🤖</td>
-      <td rowspan="2"><b>머신러닝</b></td>
-      <td>Scikit-learn</td>
-      <td>데이터 전처리, 모델 평가</td>
-    </tr>
-    <tr>
-      <td>TensorFlow, Keras</td>
-      <td>신경망 모델 구현 및 학습</td>
-    </tr>
-    <tr>
-      <td><b>개발 환경</b></td>
-      <td>Google Colab</td>
-      <td>코드 개발 및 학습 환경</td>
     </tr>
   </table>
 </div>
